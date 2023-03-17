@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-shadow: border-box;
+}
+body {
+  color:white;
+  background-color: black;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/blacklite.ttf)
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(fonts/fonts.woff2)
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 26vh;
+  background-color:black;
+  color:white;
+  font-size: 2rem;
+}
+#img-div {
+  background-image: url('img/stevejobs.svg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  height: 40vh;
+  position: relative;
+  top:-1rem;
+ 
+}
+#img-div p {
+  font-weight:900;
+  color: white;
+  position: relative;
+  top:20rem;
+  left:4rem;
+  max-width: 15rem;
+  font-size: 1.8rem;
+  
+  
+}
+
+#timeline {
+  text-align: center;
+  position: relative;
+  top: -10rem;
+}
+#timeline h2 {
+  font-size: 4rem;
+  font-family: mySecondFont;
+  
+}
+#timeline p {
+  text-align: left;
+  max-width:35rem;
+  margin:0 15rem;
+}
+#timeline hr {
+  margin-top:5rem;
+  margin-left:10rem;
+  max-width:45rem;
+}
